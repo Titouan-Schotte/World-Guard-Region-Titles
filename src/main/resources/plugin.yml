@@ -1,0 +1,11 @@
+name: WorldGuardExtended
+version: '${project.version}'
+main: fr.epickworld.guard.Main
+authors: [ Tit0un3 ]
+description: Plugin to upgrade World Guard
+depend: [WorldGuard, WorldEdit]
+commands:
+  epickwgreload:
+    description: to reload rg
+    usage: /<command>
+    permission: epicka.rgreload
