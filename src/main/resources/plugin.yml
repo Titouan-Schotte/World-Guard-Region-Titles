@@ -1,0 +1,12 @@
+name: EpickRegions
+version: '${project.version}'
+main: fr.titoune.epickregions.epickregions.Epickregions
+api-version: 1.16
+authors: [ Titoune ]
+description: Plugin to show a custom title when a player enter in a wg regions
+website: epicka-dagloth.fr
+commands:
+  epickwgreload:
+    description: to reload rg
+    usage: /<command>
+    permission: epicka.rgreload
