@@ -2,6 +2,8 @@
 
 It's a simple plugin that will allow you to configure custom titles to be sent to players when they enter a new world guard region.
 
+**WARNING** => 1.16.5 require a custom version of WGRegionEvents (check dependencies).
+
 # Examples :
 
 Custom Region :
@@ -26,11 +28,10 @@ Finally, you can include in your titles {playerName} and {regionId} which will b
 
 # Dependencies :
 
-- World Guard
-- WGRegionEvents
-
+- [World Guard 7.0 or above](https://dev.bukkit.org/projects/worldguard)
+- [WGRegionEvents for **1.12.2**](https://www.spigotmc.org/resources/wgregionevents-continued.15946/)
+- [WGRegionEvents  for **1.16.5**](https://github.com/DankPrison/WorldGuard-Region-Events/releases/download/1.13/WGRegionEvent-1.13.jar)
 # Commands :
-
 /epickwgreload => reload config.json and region.txt
 
 # Discord :
